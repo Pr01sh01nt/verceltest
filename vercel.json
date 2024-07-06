@@ -3,7 +3,7 @@
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "https://other-ten.vercel.app/api/$1"
+        "dest": "https://other-ten.vercel.app/$1"
       },
       {
         "src": "/(.*)",
