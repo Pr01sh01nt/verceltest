@@ -2,19 +2,13 @@
     "version": 2,
     "routes": [
       {
-        "src": "/api(.*)",
-        "dest": "https://other-ten.vercel.app/api$1"
-      },
-      {
-        "src": "/app2(.*)",
-        "dest": "https://traveller-hub-jfii.vercel.app/$1"
+        "src": "/api/(.*)",
+        "dest": "https://other-ten.vercel.app/api/$1"
       },
       {
         "src": "/(.*)",
-        "status": 404,
-        "dest": "/404.html"
+        "dest": "https://das-iota.vercel.app/$1"
       }
     ]
   }
-  
   
