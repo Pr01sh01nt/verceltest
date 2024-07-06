@@ -7,7 +7,7 @@
       },
       {
         "src": "/app2(.*)",
-        "dest": "https://das-iota.vercel.app/$1"
+        "dest": "https://traveller-hub-jfii.vercel.app/$1"
       },
       {
         "src": "/(.*)",
