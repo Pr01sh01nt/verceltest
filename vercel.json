@@ -3,6 +3,8 @@
       { "source": "/api", "destination": "https://other-ten.vercel.app/" },
       { "source": "/api/:slug", "destination": "https://other-ten.vercel.app/:slug" },
       { "source": "/frontend", "destination": "https://traveller-hub-jfii.vercel.app/" },
+      { "source": "/frontend2", "destination": "https://das-iota.vercel.app/" },
+      { "source": "/frontend2/:slug", "destination": "https://das-iota.vercel.app/:slug" },
       { "source": "/frontend/:slug", "destination": "https://traveller-hub-jfii.vercel.app/:slug" }
       
     ]
