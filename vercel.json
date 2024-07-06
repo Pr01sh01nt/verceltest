@@ -2,7 +2,7 @@
     "rewrites": [
       { "source": "/api", "destination": "https://other-ten.vercel.app/" },
       { "source": "/api/:slug", "destination": "https://other-ten.vercel.app/:slug" },
-      { "source": "/:slug", "destination": "https://traveller-hub-jfii.vercel.app/:slug" }
+      { "source": "/frontend/:slug", "destination": "https://traveller-hub-jfii.vercel.app/:slug" }
       
     ]
   }
