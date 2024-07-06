@@ -3,7 +3,7 @@
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "https://other-ten.vercel.app/$1"
+        "dest": "https://other2-prashant-kumars-projects-aa0ab61a.vercel.app/$1"
       },
       {
         "src": "/(.*)",
