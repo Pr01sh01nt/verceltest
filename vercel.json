@@ -2,18 +2,18 @@
     "version": 2,
     "routes": [
 
-      {
-        "src": "/.*",
-        "dest": "https://das-iota.vercel.app/"
-      },
-      {
-        "src": "/api",
-        "dest": "https://other-ten.vercel.app/"
-      },
-      {
-        "src": "/api/:slug",
-        "dest": "https://other-ten.vercel.app/:slug"
-      }
+        {
+            "src": "/api",
+            "dest": "https://other-ten.vercel.app/"
+        },
+        {
+            "src": "/api/:slug",
+            "dest": "https://other-ten.vercel.app/:slug"
+        },
+        {
+          "src": "/:slug",
+          "dest": "https://das-iota.vercel.app/:slug"
+        }
       
     ]
   }
