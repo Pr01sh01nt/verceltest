@@ -1,11 +1,19 @@
 {
-    "rewrites": [
-      { "source": "/api", "destination": "https://other-ten.vercel.app/" },
-      { "source": "/api/:slug", "destination": "https://other-ten.vercel.app/:slug" },
-      { "source": "/frontend", "destination": "https://traveller-hub-jfii.vercel.app/" },
-      { "source": "/frontend2", "destination": "https://das-iota.vercel.app/" },
-      { "source": "/frontend2/:slug", "destination": "https://das-iota.vercel.app/:slug" },
-      { "source": "/frontend/:slug", "destination": "https://traveller-hub-jfii.vercel.app/:slug" }
+    "version": 2,
+    "routes": [
+
+      {
+        "src": "/.*",
+        "dest": "https://das-iota.vercel.app/"
+      },
+      {
+        "src": "/api",
+        "dest": "https://other-ten.vercel.app/"
+      },
+      {
+        "src": "/api/:slug",
+        "dest": "https://other-ten.vercel.app/:slug"
+      }
       
     ]
   }
